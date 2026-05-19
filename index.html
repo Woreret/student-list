@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🎓 Журнал Студентів</h1>
+
+    <div class="input-group">
+        <input type="text" id="name-input" placeholder="Прізвище та Ім'я">
+        <input type="number" id="course-input" placeholder="Курс" min="1" max="6">
+        <input type="number" id="score-input" placeholder="Бал" min="0" max="100">
+        <button id="add-btn">Додати</button>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="🔍 Пошук студента...">
+    </div>
+
+    <ul id="student-list">
+        </ul>
+<script src="index.js"></script>
+</body>
+</html>
